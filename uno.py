@@ -4,7 +4,7 @@ print("Hola,",u1,"y",u2,".","El juego consiste en escoger un número. Los jugado
 cantidad=int(input("Escojan el número con el que desean jugar"))
 ganador="false"
 while ganador:
-    print("Hola", u1,"haz tu resta") 
+    print("Hola  tu resta") 
     j1=int(input())
     if j1!=1 or j1!=2:
         j1=int(input("ingresa 1 o 2:"))

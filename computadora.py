@@ -1,6 +1,6 @@
 import random 
 jugar="true"
-u1=input("escribe tu nombre:")
+u1=input("Hola!, escribe tu nombre:")
 print("Hola,",u1,"El juego consiste en restar 1 o 2 piedras del número inicial de piedras y el primero que logre que hayan 0 piedras, gana.")
 while jugar=="true":
     cantidad=random.randint(2,10) *3

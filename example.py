@@ -6,4 +6,4 @@ def pedir_input():
         print("Recuerda poner un entero")
 
 
-        .
+        

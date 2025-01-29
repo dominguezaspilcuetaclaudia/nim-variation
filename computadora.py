@@ -53,7 +53,7 @@ while jugar=="true":
             print("ahora hay",cantidad,"piedra(s)")
             if cantidad==0:
                 ganador="true"
-                print("Yo gané :D.¿te gustaría volver a jugar?")
+                print("Yo gané :D.¿te gustaría volver a jugar conmigo?")
                 print("escribe si o no")
                 a=input()
                 while "true":

@@ -41,13 +41,15 @@ while jugar=="true":
                     a=input()
         if cantidad>0:    
             print("es mi tu turno de jugar") 
-            yo=cantidad//3
-            if yo<2 or yo>=0:
+            yo=cantidad%3
+            if yo<2:
                 yo=1
             if yo>=2:
                 yo=2
             if cantidad==2:
                 yo=2
+            if cantidad==1:
+                yo=1
             print("elijo tirar:",yo)
             cantidad=cantidad-yo
             print("ahora hay",cantidad,"piedra(s)")

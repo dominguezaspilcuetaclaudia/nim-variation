@@ -26,7 +26,7 @@ while jugar=="true":
         if cantidad==0:
             print("Felicidades",u1,",tu ganaste esta ronda")
             ganador="true"
-            print("te gustaría volver a jugar?")
+            print("te gustaría jugar otra partida?")
             print("escribe si o no")
             a=input()
             while "true":
